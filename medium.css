@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0%;
+}
+header {
+    display: flex;
+    background-color: #FFC017;
+    border-bottom: solid 1px black;
+    width: 100%;
+    height: 75px;
+    z-index: 10;
+    box-sizing: border-box;
+    box-sizing: inherit;
+    position: fixed;
+    align-items: center;
+}
+header img {
+    width: 180px;
+    margin-left: 150px;
+}
+.fasciatop {
+    display: contents;
+    width: 100%;
+    font-size: smaller;
+}
+.scritte {
+    margin-left: 600px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+.fasciatop span,button {
+    display: inline-flex;
+    padding: 12px;
+}
+button {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 9px 12px 9px 12px;
+    font-weight: bold;
+}
+header img,span,button:hover {
+    cursor: pointer;
+}
+.big {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+}
+#centro {
+    background-color: #FFC017;
+    border-bottom: solid 1px black;
+    width: 100%;
+    height: 520px;
+    display: inline-flex;
+}
+.text {
+    margin-left: 150px;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 106px;
+    line-height: 95px;
+    letter-spacing: -0.05em;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.button2 {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 7px 46px 9px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 213px;
+}
+.M {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: auto;
+    align-self: flex-end;
+    letter-spacing: 3px;
+    text-align: right;
+}
+main {
+    position: relative;
+    border-bottom:solid 0.1em rgb(220, 216, 216);
+    width: auto;
+    height: 345px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.trending-title {
+    display: flex;
+    margin: 0;
+    height: 26px;
+    margin-top: 40px;
+    margin-left: 40px;
+    align-items: center;
+}
+.trend {
+    display: flex;
+    height: 130px;
+    margin: 5px;
+    width: 99%;
+}
+.news {
+    display: flex;
+    width: 33%;
+    height: auto;
+    margin: 25px;
+}
+h4 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.083em
+}
+.numbers {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(230 230 230);
+}
+.articlenews {
+    width: 800px;
+}
+article img {
+    border-radius: 50%;
+    width: 23px;
+    padding: 6px;
+}
+.avatar {
+    display: flex;
+    margin: 0%;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 10px;
+}
+h6 {
+    margin: 0;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.title {
+    padding-left: 17px;
+    margin: 0%;
+    font-weight: 700;
+    font-size: 16px;
+}
+.date {
+    font-size: 13px;
+    margin-left: 17px;
+    color: rgba(117, 117, 117);
+    padding-top: 8px;
+    align-content: space-between;
+    display: flex;
+}
+.newsdate {
+    font-size: 13px;
+    margin-left: 17px;
+    color: rgba(117, 117, 117);
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.avatar, .title, h6:hover {
+    cursor: pointer;
+}
+#down {
+    display: flex;
+    padding-top: 56px;
+    width: 100%;
+}
+.column {
+    width: 60%;
+    height: 1000px;
+}
+aside {
+    width: 400px;
+    height: 1000px;
+    padding-left: 70px;
+    padding-right: 100px;
+    float: right;
+    height: auto;
+}
+.divaside{
+    position: sticky;
+    top: 100px;
+    /*ho dovuto creare una classe apposita perché su tutto l'aside non so perché non funzionava
+    ci ho perso 6 ore ma il risultato l'ho ottenuto. è stata la cosa più ostica del compito*/
+}
+.row {
+    display: flex;
+    margin-left: 65px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+.newsphoto {
+    width: 200px;
+    height: 134px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.newstitle {
+    padding-left: 17px;
+    margin: 0%;
+    font-weight: 700;
+    font-size: 22px;
+}
+.description {
+    color:rgba(117, 117, 117, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    margin-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+}
+.tag {
+    border: 1px solid rgba(230, 230, 230, 1);
+    padding: 6px 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+    color:  rgb(150, 148, 148);
+    font-size: 13px;
+    border-radius: 4px;
+}
+.word {
+    display: inline-block;
+    padding: 1px 10px;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
